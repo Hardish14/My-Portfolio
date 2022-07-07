@@ -1,0 +1,101 @@
+.Experience{
+    font-size: 3rem;
+    /* color: brown; */
+    height: 90vh;
+    width: 100%;
+    padding: 0 3rem 0 3rem;
+    /* background-color: aquamarine; */
+}
+.e-title{
+    display: flex;
+    flex-direction: column;
+}
+.e-title>:nth-child(1){
+    color: black;
+    font-weight: bold;
+}
+.e-title>:nth-child(2){
+    color: rgb(42, 141, 139);
+    font-weight: bold;
+}
+.Company-details{
+    display: flex;
+    margin-top: 20px;
+}
+.first-company:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.first-company{
+    align-items: center;
+    text-align: center; 
+    width: 50%;
+    /* border: 1px solid red; */
+    height: 100%;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.30);
+    box-shadow: 0px 20px 24px 3px rgba(131, 241, 237, 0.697);
+    margin-right: 20px;
+    padding: 10px;
+}
+/* .first-company>img{
+    margin-top: 5px;
+} */
+.first-company>:nth-child(2)
+{
+    /* margin-top: 20px; */
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: rgb(42, 141, 139);
+    margin-bottom: 5px;
+}
+.first-company>:nth-child(3)
+{
+    font-weight: bold;
+}
+.first-company>:nth-child(5){
+    font-size: 25px;
+    margin-top: 5px;
+}
+.second-company{
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.30);
+    box-shadow: 0px 20px 24px 3px rgba(131, 241, 237, 0.697);
+    margin-left: 20px;
+    padding: 10px;
+    /* border: 1px solid red; */
+}
+.second-company>:nth-child(2)
+{
+    /* margin-top: 20px; */
+    color: rgb(42, 141, 139);
+    font-weight: bold;
+    font-size: 2.8rem;
+    margin-bottom: 5px;
+}
+.second-company:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.second-image{
+    width: 500px;
+    height: 200px;
+}
+.second-company>:nth-child(3)
+{
+    font-weight: bold;
+}
+.second-company>:nth-child(5)
+{
+    margin-top: 5px;
+    font-size: 25px;
+}
